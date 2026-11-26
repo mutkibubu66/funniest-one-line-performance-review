@@ -9,10 +9,13 @@ import os
 
 MAX_LEN = 140
 
-LINE = (
-    "Meets expectations brilliantly on every goal he invented himself; "
-    "the ones in his job description remain aspirational."
+LINE_PARTS = (
+    "Meets expectations brilliantly on every goal ",
+    "he invented himself; the ones in his job description ",
+    "remain aspirational.",
 )
+
+LINE = "".join(LINE_PARTS)
 
 
 def main() -> None:
